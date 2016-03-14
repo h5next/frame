@@ -2,11 +2,11 @@
 
 ##deployment
 
-intall git
+install git  
 `sudo apt-get install git`
 
-install node 
+install node  
 `sudo apt-get install nodejs`
 
-install npm
+install npm  
 `sudo apt-get install npm`

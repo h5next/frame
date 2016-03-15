@@ -11,7 +11,8 @@ install node
 install npm  
 `sudo apt-get install npm`
 
-`.mt-checkbox,
+```CSS
+.mt-checkbox,
 .mt-radio {
     display: inline-block;
     cursor: pointer;
@@ -136,4 +137,4 @@ label.require:after {
 			position: relative;
 			height: 0.5em;
 		}
-`
+```

@@ -1,0 +1,68 @@
+.pull-left { float: left !important; }
+.pullright { float: right !important; }
+
+.text-left   { text-align: left !important; }
+.text-right  { text-align: right !important; }
+.text-center { text-align: center !important; }
+.text-just    { text-align: justify !important; }
+
+.lowercase      { text-transform: lowercase; }
+.uppercase      { text-transform: uppercase; }
+.capitalize     { text-transform: capitalize; }
+
+.txt-overflow  {
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-no-select {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.fit         { max-width: 100%; }
+.half-width  { width: 50% }
+.full-width  { width: 100%; }
+.full-height { height: 100%; }
+
+.align-top      { vertical-align: top; }
+.align-bottom   { vertical-align: bottom; }
+.align-middle   { vertical-align: middle; }
+.align-baseline { vertical-align: baseline; }
+.absolute-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.bold     { font-weight: bold; }
+.regular  { font-weight: normal; }
+.italic   { font-style: italic; }
+
+.inline       { display: inline; }
+.block        { display: block; }
+.inline-block { display: inline-block; }
+.hide         { display: none; }
+.invisible    { visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}

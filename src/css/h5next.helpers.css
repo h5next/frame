@@ -1,68 +1,162 @@
-.pull-left { float: left !important; }
-.pullright { float: right !important; }
-
-.text-left   { text-align: left !important; }
-.text-right  { text-align: right !important; }
-.text-center { text-align: center !important; }
-.text-just    { text-align: justify !important; }
-
-.lowercase      { text-transform: lowercase; }
-.uppercase      { text-transform: uppercase; }
-.capitalize     { text-transform: capitalize; }
-
-.txt-overflow  {
-  overflow-x: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+.u-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.text-no-select {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+.u-pull-left {
+  float: left !important
 }
 
-.fit         { max-width: 100%; }
-.half-width  { width: 50% }
-.full-width  { width: 100%; }
-.full-height { height: 100%; }
-
-.align-top      { vertical-align: top; }
-.align-bottom   { vertical-align: bottom; }
-.align-middle   { vertical-align: middle; }
-.align-baseline { vertical-align: baseline; }
-.absolute-center {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+.u-pull-right {
+  float: right !important
 }
 
-.bold     { font-weight: bold; }
-.regular  { font-weight: normal; }
-.italic   { font-style: italic; }
+.u-no-float {
+  float: none !important
+}
 
-.inline       { display: inline; }
-.block        { display: block; }
-.inline-block { display: inline-block; }
-.hide         { display: none; }
-.invisible    { visibility: hidden; }
-
-.clearfix:before,
-.clearfix:after {
+.u-clearfix:before,
+.u-clearfix:after {
   content: " ";
   display: table;
 }
 
-.clearfix:after {
-  clear: both;
+.u-clearfix:after {
+  clear: both
 }
 
-.clearfix {
-  *zoom: 1;
+.u-clearfix {
+  *zoom: 1
+}
+
+.u-v-top {
+  vertical-align: top !important
+}
+
+.u-v-bottom {
+  vertical-align: bottom !important
+}
+
+.u-v-middle {
+  vertical-align: middle !important
+}
+
+.u-v-baseline {
+  vertical-align: baseline !important
+} 
+
+.u-inline {
+  display: inline !important
+}
+
+.u-block {
+  display: block !important
+}
+
+.u-inline-block {
+  display: inline-block !important
+}
+
+.u-invisible {
+  visibility: hidden !important
+}
+
+.u-visible {
+  visibility: visible !important
+}
+
+.u-hide {
+  display: none !important;
+}
+
+.u-bold {
+  font-weight: bold
+}
+
+.u-regular {
+  font-weight: normal
+}
+
+.u-italic {
+  font-style: italic
+}
+
+.u-txt-left {
+  text-align: left
+}
+
+.u-txt-right {
+ text-align: right
+}
+
+.u-txt-center {
+  text-align: center
+}
+
+.u-txt-just {
+  text-align: justify
+}
+
+.u-lower {
+  text-transform: lowercase
+}
+
+.u-upper {
+  text-transform: uppercase
+}
+
+.u-caps {
+  text-transform: capitalize
+}
+
+.u-txt-truncate,
+.u-txt-trim {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+.u-txt-truncate {
+  text-overflow: ellipsis
+}
+
+.u-txt-clip {
+  text-overflow: clip
+}
+
+.u-break-word {
+  word-wrap: break-word
+}
+
+.u-no-wrap {
+  white-space: nowrap !important
+}
+
+.u-no-select {
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.u-click {
+  cursor: pointer;
+}
+
+.u-fit {
+  max-width: 100%
+}
+
+.u-half-width {
+  width: 50%
+}
+
+.u-full-width {
+  width: 100%
+}
+
+.u-full-height {
+  height: 100%
 }

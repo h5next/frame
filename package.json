@@ -3,5 +3,6 @@
   "version": "0.0.1",
   "description": "todo",
   "devDependencies": {
+    "gulp-csslint": "^0.3.1"
   }
 }

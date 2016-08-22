@@ -1,0 +1,30 @@
+.form-box {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.form-box .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 15px;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.form-box [class*='xs-'],
+.form-box [class*='sm-'],
+.form-box [class*='md-'],
+.form-box [class*='lg-'] {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.form-box input:not([type="radio"]):not([type="checkbox"]),
+.form-box select,
+.form-box textarea {
+  margin: 0;
+  position: relative;
+  width: 100%;
+}

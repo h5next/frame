@@ -1,3 +1,8 @@
+.u-img-scale {
+  height: auto;
+  max-width: 100%;
+}
+
 .u-center {
 	display: block;
 	margin-left: auto;
@@ -5,15 +10,15 @@
 }
 
 .u-pull-left {
-  float: left !important
+  float: left !important;
 }
 
 .u-pull-right {
-  float: right !important
+  float: right !important;
 }
 
 .u-no-float {
-  float: none !important
+  float: none !important;
 }
 
 .u-clearfix:before,
@@ -31,39 +36,39 @@
 }
 
 .u-v-top {
-  vertical-align: top !important
+  vertical-align: top !important;
 }
 
 .u-v-bottom {
-  vertical-align: bottom !important
+  vertical-align: bottom !important;
 }
 
 .u-v-middle {
-  vertical-align: middle !important
+  vertical-align: middle !important;
 }
 
 .u-v-baseline {
-  vertical-align: baseline !important
-} 
+  vertical-align: baseline !important;
+}
 
 .u-inline {
-  display: inline !important
+  display: inline !important;
 }
 
 .u-block {
-  display: block !important
+  display: block !important;
 }
 
 .u-inline-block {
-  display: inline-block !important
+  display: inline-block !important;
 }
 
 .u-invisible {
-  visibility: hidden !important
+  visibility: hidden !important;
 }
 
 .u-visible {
-  visibility: visible !important
+  visibility: visible !important;
 }
 
 .u-hide {
@@ -71,65 +76,66 @@
 }
 
 .u-bold {
-  font-weight: bold
+  font-weight: bold;
 }
 
 .u-regular {
-  font-weight: normal
+  font-weight: normal;
 }
 
 .u-italic {
-  font-style: italic
+  font-style: italic;
 }
 
 .u-txt-left {
-  text-align: left
+  text-align: left;
 }
 
 .u-txt-right {
- text-align: right
+ text-align: right;
 }
 
 .u-txt-center {
-  text-align: center
+  text-align: center;
 }
 
 .u-txt-just {
-  text-align: justify
+  text-align: justify;
 }
 
 .u-lower {
-  text-transform: lowercase
+  text-transform: lowercase;
 }
 
 .u-upper {
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .u-caps {
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 .u-txt-truncate,
-.u-txt-trim {
+.u-txt-clip {
   overflow-x: hidden;
   white-space: nowrap;
 }
 
 .u-txt-truncate {
-  text-overflow: ellipsis
+  text-overflow: ellipsis;
 }
 
 .u-txt-clip {
-  text-overflow: clip
+  text-overflow: clip;
 }
 
 .u-break-word {
-  word-wrap: break-word
+  word-wrap: break-word;
+  word-break: keep-all;
 }
 
 .u-no-wrap {
-  white-space: nowrap !important
+  white-space: nowrap !important;
 }
 
 .u-no-select {

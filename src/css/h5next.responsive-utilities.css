@@ -2,184 +2,184 @@
   width: device-width
 }
 
-.u-visible-x,
-.u-visible-s,
-.u-visible-m,
-.u-visible-l {
+.u-visible-xs,
+.u-visible-sm,
+.u-visible-md,
+.u-visible-lg {
   display: none !important
 }
 
-.u-visible-x-block,
-.u-visible-x-inline,
-.u-visible-x-inline-block,
-.u-visible-s-block,
-.u-visible-s-inline,
-.u-visible-s-inline-block,
-.u-visible-m-block,
-.u-visible-m-inline,
-.u-visible-m-inline-block,
-.u-visible-l-block,
-.u-visible-l-inline,
-.u-visible-l-inline-block {
+.u-visible-xs-block,
+.u-visible-xs-inline,
+.u-visible-xs-inline-block,
+.u-visible-sm-block,
+.u-visible-sm-inline,
+.u-visible-sm-inline-block,
+.u-visible-md-block,
+.u-visible-md-inline,
+.u-visible-md-inline-block,
+.u-visible-lg-block,
+.u-visible-lg-inline,
+.u-visible-lg-inline-block {
   display: none !important
 }
 
 @media (max-width: 767px) {
-  .u-visible-x {
+  .u-visible-xs {
     display: block !important
   }
-  table.u-visible-x {
+  table.u-visible-xs {
     display: table !important
   }
-  tr.u-visible-x {
+  tr.u-visible-xs {
     display: table-row !important
   }
-  th.u-visible-x,
-  td.u-visible-x {
+  th.u-visible-xs,
+  td.u-visible-xs {
     display: table-cell !important
   }
 }
 
 @media (max-width: 767px) {
-  .u-visible-x-block {
+  .u-visible-xs-block {
     display: block !important
   }
 }
 
 @media (max-width: 767px) {
-  .u-visible-x-inline {
+  .u-visible-xs-inline {
     display: inline !important
   }
 }
 
 @media (max-width: 767px) {
-  .u-visible-x-inline-block {
+  .u-visible-xs-inline-block {
     display: inline-block !important
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .u-visible-s {
+  .u-visible-sm {
     display: block !important
   }
-  table.u-visible-s {
+  table.u-visible-sm {
     display: table !important
   }
-  tr.u-visible-s {
+  tr.u-visible-sm {
     display: table-row !important
   }
-  th.u-visible-s,
-  td.u-visible-s {
+  th.u-visible-sm,
+  td.u-visible-sm {
     display: table-cell !important
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .u-visible-s-block {
+  .u-visible-sm-block {
     display: block !important
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .u-visible-s-inline {
+  .u-visible-sm-inline {
     display: inline !important
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .u-visible-s-inline-block {
+  .u-visible-sm-inline-block {
     display: inline-block !important
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .u-visible-m {
+  .u-visible-md {
     display: block !important
   }
-  table.u-visible-m {
+  table.u-visible-md {
     display: table !important
   }
-  tr.u-visible-m {
+  tr.u-visible-md {
     display: table-row !important
   }
-  th.u-visible-m,
-  td.u-visible-m {
+  th.u-visible-md,
+  td.u-visible-md {
     display: table-cell !important
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .u-visible-m-block {
+  .u-visible-md-block {
     display: block !important
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .u-visible-m-inline {
+  .u-visible-md-inline {
     display: inline !important
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .u-visible-m-inline-block {
+  .u-visible-md-inline-block {
     display: inline-block !important
   }
 }
 
 @media (min-width: 1200px) {
-  .u-visible-l {
+  .u-visible-lg {
     display: block !important
   }
-  table.u-visible-l {
+  table.u-visible-lg {
     display: table !important
   }
-  tr.u-visible-l {
+  tr.u-visible-lg {
     display: table-row !important
   }
-  th.u-visible-l,
-  td.u-visible-l {
+  th.u-visible-lg,
+  td.u-visible-lg {
     display: table-cell !important
   }
 }
 
 @media (min-width: 1200px) {
-  .u-visible-l-block {
+  .u-visible-lg-block {
     display: block !important
   }
 }
 
 @media (min-width: 1200px) {
-  .u-visible-l-inline {
+  .u-visible-lg-inline {
     display: inline !important
   }
 }
 
 @media (min-width: 1200px) {
-  .u-visible-l-inline-block {
+  .u-visible-lg-inline-block {
     display: inline-block !important
   }
 }
 
 @media (max-width: 767px) {
-  .u-hidden-x {
+  .u-hidden-xs {
     display: none !important
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .u-hidden-s {
+  .u-hidden-sm {
     display: none !important
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .u-hidden-m {
+  .u-hidden-md {
     display: none !important
   }
 }
 
 @media (min-width: 1200px) {
-  .u-hidden-l {
+  .u-hidden-lg {
     display: none !important
   }
 }

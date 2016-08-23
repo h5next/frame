@@ -741,15 +741,12 @@
   vertical-align: middle;
   float: none;
 }
-.form-box input,
+.form-box input:not([type="radio"]):not([type="checkbox"]),
 .form-box select,
 .form-box textarea {
+  margin: 0;
   position: relative;
   width: 100%;
-}
-.form-box input[type=radio],
-.form-box input[type=checkbox] {
-  width: auto;
 }
 .embed-responsive {
   position: relative;

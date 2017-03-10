@@ -17,17 +17,12 @@
 }
 
 body {
-  color: $primary-color;
-  font-family: $font-stack;
-  font-size: $default-font-size;
-  line-height: $line-height;
   text-rendering: optimizelegibility;
 }
 
 a {
   cursor: pointer;
   text-decoration: none;
-  color: $primary-link-color;
 }
 
 a:hover,
@@ -73,5 +68,5 @@ abbr {
 hr {
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $secondary-color-dark;
+  border-top: 1px solid #eaecef;
 }

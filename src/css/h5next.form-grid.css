@@ -1,15 +1,14 @@
-.form-box {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-.form-box .row {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 15px;
-  display: table;
-  table-layout: fixed;
-  width: 100%;
+form row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  min-height: 24em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .form-box [class*='xs-'],

@@ -1,23 +1,5 @@
-ol.numeric {
-  counter-reset: custom;
+ul, ol {
 
-  > li {
-    list-style: none;
-
-    &:before {
-      counter-increment: custom;
-      content:counter(custom);
-      background: $secondary-color-dark;
-      display: inline-block;
-      text-align: center;
-      line-height: 2.5em;
-      width: 2.5em;
-      height: 2.5em;
-      margin-bottom: 1em;
-      margin-right: 1em;
-      border-radius: 50%;
-    }
-  }
 }
 
 dl {

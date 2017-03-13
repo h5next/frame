@@ -9,7 +9,22 @@ var gulp = require('gulp'),
         require('postcss-import'),
         require('postcss-mixins'),
         require('postcss-simple-vars'),
-        require('postcss-nested')
+        require('postcss-nested'),
+        require('postcss-bem')({
+            defaultNamespace: undefined,
+            style: 'bem',
+            separators: {
+                namespace: '-',
+                descendent: '__',
+                modifier: '--'
+            },
+            shortcuts: {
+                component: 'b',
+                descendent: 'e',
+                modifier: 'm'
+            }
+
+        })
     ];
 
 

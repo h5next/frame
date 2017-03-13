@@ -1,29 +1,21 @@
-form row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
+form .row {
   -webkit-box-align: center;
   -webkit-align-items: center;
   align-items: center;
-  min-height: 24em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
 }
 
-.form-box [class*='xs-'],
-.form-box [class*='sm-'],
-.form-box [class*='md-'],
-.form-box [class*='lg-'] {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
+form .row + .row {
+  margin-top: 1rem;
 }
 
-.form-box input:not([type="radio"]):not([type="checkbox"]),
-.form-box select,
-.form-box textarea {
+form .row input:not([type="radio"]):not([type="checkbox"]),
+form .row select,
+form .row textarea {
   margin: 0;
   position: relative;
   width: 100%;
+  vertical-align: middle;
 }

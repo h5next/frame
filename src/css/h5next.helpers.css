@@ -2,7 +2,10 @@
   height: auto;
   max-width: 100%;
   position: relative;
-  vertical-align: middle;
+}
+
+.u-avatar {
+  border-radius: 50%;
 }
 
 .u-center {

@@ -67,6 +67,15 @@ img {
   vertical-align: middle;
 }
 
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
 textarea {
   resize: vertical;
 }

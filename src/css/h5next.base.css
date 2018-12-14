@@ -63,6 +63,10 @@ hr {
   border-top: 1px solid #eaecef;
 }
 
+img {
+  vertical-align: middle;
+}
+
 textarea {
   resize: vertical;
 }

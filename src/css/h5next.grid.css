@@ -15,6 +15,14 @@
   padding-left: .5rem;
 }
 
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.col.reverse {
+  flex-direction: column-reverse;
+}
+
 .row {
   box-sizing: border-box;
   display: -webkit-box;

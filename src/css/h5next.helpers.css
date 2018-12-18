@@ -120,6 +120,10 @@
   text-transform: capitalize;
 }
 
+.u-monospace {
+  
+}
+
 .u-txt-truncate,
 .u-txt-clip {
   overflow-x: hidden;
